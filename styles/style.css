@@ -25,11 +25,11 @@ body {
     width: 531px;
     height: 424px;
     padding-left: 100px;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .banner-title {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .banner-title2 {
@@ -65,5 +65,102 @@ body {
 }
 
 /*------------------------------------------
+      Main Body Style 
+--------------------------------------------*/
+
+.main-body {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 90px;
+    gap: 35px;
+}
+
+/*------------------------------------------
+       Side Nevigation Bar Style 
+--------------------------------------------*/
+
+.side-nevigation-bar {
+    width: 300px;
+    height: 300px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.navigation-container {
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.navigation {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-top: 17px;
+}
+
+#blog-id {
+    background-color: #DD0000;
+    color: white;
+}
+
+
+/*------------------------------------------
               Card Style 
 --------------------------------------------*/
+
+.blogs-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 25px;
+}
+
+.blogs {
+    height: 370px;
+    width: 311px;
+    border: 1px solid gray;
+    border-radius: 13px;
+}
+
+.blog-info {
+    padding-left: 15px;
+}
+
+.watch-blog {
+    width: 100px;
+    height: 32px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 20px;
+    font-weight: 900px;
+    color: #161616;
+}
+
+.blog-icon {
+    display: flex;
+    gap: 60px;
+    width: 200px;
+    height: 50px;
+    color: rgba(22, 22, 22, 0.7);
+    padding-left: 15px;
+
+}
+
+.blog-duration {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-comment {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
