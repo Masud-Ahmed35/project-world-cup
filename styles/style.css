@@ -30,10 +30,17 @@ body {
 
 .banner-title {
     font-size: 70px;
+    -webkit-text-fill-color: rgba(0, 200, 200, 0.1);
+    -webkit-background-clip: text;
+    background-image: url("https://www.dropbox.com/s/3ytqfq5i4qcgtgd/31799ac0a3b22bb56bd4f278fb80964c.gif?dl=1");
 }
 
 .banner-title2 {
+    width: 450px;
     font-size: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .banner-text p {
@@ -195,7 +202,7 @@ body {
 
 .footer-detail {
     display: flex;
-    color: white;
+    color: oldlace;
     gap: 25px;
     padding-top: 50px;
     padding-left: 450px;
