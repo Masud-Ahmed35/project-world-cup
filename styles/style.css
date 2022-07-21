@@ -1,0 +1,69 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Finlandica&display=swap');
+
+/* Universal Styles */
+body {
+    font-family: 'Finlandica', sans-serif;
+}
+
+/*------------------------------------
+          Top Banner Styles 
+--------------------------------------*/
+
+.top-banner {
+    display: flex;
+    width: 1321px;
+    height: 646px;
+    margin: auto;
+    background: #161616;
+    border-radius: 30px;
+    gap: 50px;
+}
+
+.banner-text {
+    color: white;
+    width: 531px;
+    height: 424px;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.banner-title {
+    font-size: 50px;
+}
+
+.banner-title2 {
+    font-size: 40px;
+}
+
+.banner-text p {
+    font-size: 25px;
+}
+
+.watch-button {
+    display: flex;
+    gap: 10px;
+    background: #DD0000;
+    width: 187px;
+    height: 56px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700px;
+    margin-top: 60px;
+}
+
+.banner-photo {
+    width: 581px;
+    height: 613px;
+    padding-top: 30px;
+}
+
+.banner-photo img {
+    height: 617px;
+}
+
+/*------------------------------------------
+              Card Style 
+--------------------------------------------*/
